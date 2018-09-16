@@ -1,0 +1,136 @@
+/*
+ Theme Name:   Iconic-One Child
+ Theme URI:    https://github.com/derektu/xqrequest/iconic-one-child/
+ Description:  Iconic-One Child Theme
+ Author:       Derek Tu
+ Author URI:   https://github.com/derektu
+ Template:     iconic-one
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  iconic-one-child
+*/
+
+body {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Arial","微軟正黑體","Microsoft JhengHei","Lucida Grande","Lucida Sans Unicode",sans-serif;
+}
+
+.entry-content table {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Arial","微軟正黑體","Microsoft JhengHei","Lucida Grande","Lucida Sans Unicode",sans-serif;
+}
+
+.themonic-logo {
+    padding: 0 0 0 0px;
+    margin: 0 0 0 0px;
+}
+
+.themonic-nav li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.themonic-nav li a {
+    line-height: 2.5;
+}
+
+.themonic-nav ul.nav-menu,
+.themonic-nav div.nav-menu > ul {
+    background:none repeat scroll 0 0 #F3F3F3;
+    border-bottom: 5px solid #3a9ae9;
+    border-top: 3px solid #ededed;
+    display: inline-block !important;
+    text-align: left;
+    width: 100%;
+}
+
+.themonic-nav .current-menu-item > a,
+.themonic-nav .current-menu-ancestor > a,
+.themonic-nav .current_page_item > a,
+.themonic-nav .current_page_ancestor > a {
+    background: none repeat scroll 0 0 #3a9ae9;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.themonic-nav li:hover {
+    display: inline-block;
+    text-decoration: none;
+    background:#3a9ae9;
+}
+
+
+.widget-area .widget-title {
+    background: #e2e1db;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.widget-area .widget li,
+.widget-area .widget .textwidget {
+    font-size: 18px;
+}
+
+.searchform input[type="text"] {
+    font-size: 16px;
+}
+
+.searchform input[type="submit"] {
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+#searchsubmit {
+    background: #3a9ae9;
+}
+
+.site-wordpress {
+    display:none;
+}
+
+.archive-title,
+.page-title {
+    font-size: 18px;
+}
+
+
+.entry-header .entry-title {
+    color: #B23131;
+}
+
+.entry-header .entry-title a {
+    color: #B23131;
+}
+
+.entry-header .entry-title a:hover{
+    color: #de3f16;
+}
+
+
+.entry-content {
+    font-size: 18px;
+}
+
+.comment-form input[type="submit"] {
+    font-size: 14px;
+}
+
+footer.entry-meta {
+    font-size: 15px;
+}
+
+.adt-comment {
+    display:none;
+}
+
+.title-date {
+    font-size: 16px;
+    color: #700A0A;
+    margin-bottom: 8px;
+}
+
