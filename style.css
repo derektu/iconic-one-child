@@ -134,3 +134,14 @@ footer.entry-meta {
     margin-bottom: 8px;
 }
 
+.cat-parent-item {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cat-child-item {
+    text-indent: 1em;
+}
+.cat-item-active {
+    background: #e0f1f6;
+}
